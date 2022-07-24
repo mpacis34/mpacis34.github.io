@@ -10,10 +10,30 @@
     <h1>Trivia Game</h1>
 </div>
 <div class = projectInformation>
+    <div class = "videoPanel">
+
+        <video width="800" controls>
+            <source src="../TriviaGameDemo.mp4" type="video/mp4">
+
+            Your browser does not support HTML video.
+        </video>
+    </div>
     <p style="font-size: 30px">
         Created a 5-level trivia game that is based on a binary tree structure while adhering to the model-view-controller architecture. Each question provided to the user in each level is dependent on whether
         the previous question was answered correctly or incorrectly, with each question provided after a correctly answered question possessing a higher point value than the previous question.
         The program can be run through the command line or either through an interactive GUI built from the Java Swing framework.
+    </p>
+    <p style="font-size: 30px">
+        This program was originally an old project with poor design that was made at a time when
+        I did not know proper design, so I decided to redesign it to support extensibility and
+        with a GUI, which was not present before. The primary improvement of the current rendition of the program
+        is the addition of controllers, especially for the version that is run in the command line.
+        The command line controller is able to play an arbitrary number of question, while the old code
+        hard-coded asking the user a question exactly five times. In regard to potential improvements and
+        difficulties, it is laborious to manually create over 100 questions while making sure that the initialization of
+        such questions were in the correct order due to each question having left and right children.
+        Also, it took me some time to read documentation on how to utilize certain tools of Java Swing, especially with the
+        text boxes.
     </p>
 </div>
 <footer style="font-size: 30px">

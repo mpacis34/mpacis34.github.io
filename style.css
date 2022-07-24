@@ -18,21 +18,29 @@ video {
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*text-align: center;*/
 }
 
 .self-picture {
     height: 250px;
     width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .intro {
+    text-align: center;
 
 
+}
+.aboutMe {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
 }
 
 img {
@@ -41,4 +49,29 @@ img {
     object-fit: contain;
     margin-left: auto;
     margin-right: auto;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: purple;
+}
+.projects {
+    color: maroon;
+}
+.contact-title {
+    color: maroon;
+}
+.project-overview {
+    text-align: center;
+}
+.contact-info {
+    text-align: center;
+}
+.hello {
+    color: maroon;
 }
